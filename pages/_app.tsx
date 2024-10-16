@@ -28,6 +28,13 @@ const Geist = localFont({
   variable: "--font-geist",
 });
 
+const ITCGaramondStdLtNarrow = localFont({
+  src: "../fonts/ITCGaramondStd-LtNarrow.ttf",
+  weight: "300",
+  style: "normal",
+  variable: "--font-itc-garamond-std",
+});
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div className={`${Geist.variable} font-sans`}>

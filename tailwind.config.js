@@ -30,6 +30,7 @@ module.exports = {
     },
     fontFamily: {
       sans: ["var(--font-geist)", ...defaultTheme.fontFamily.sans],
+      title: ["var(--font-itc-garamond-std)", ...defaultTheme.fontFamily.serif],
     },
   },
   plugins: [],
