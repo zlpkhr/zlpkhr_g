@@ -38,7 +38,7 @@ const ITCGaramondStdLtNarrow = localFont({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <div
-      className={`${Geist.variable} ${ITCGaramondStdLtNarrow.variable} font-sans`}
+      className={`${Geist.variable} ${ITCGaramondStdLtNarrow.variable} font-sans antialiased`}
     >
       <Component {...pageProps} />
     </div>
