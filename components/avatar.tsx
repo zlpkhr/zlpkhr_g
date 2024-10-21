@@ -47,7 +47,11 @@ export type AvatarDescriptionProps = {
 };
 
 export function AvatarDescription(props: AvatarDescriptionProps) {
-  return <hgroup className="inline-flex flex-col gap-y-0.75">{props.children}</hgroup>;
+  return (
+    <hgroup className="inline-flex flex-col gap-y-0.75">
+      {props.children}
+    </hgroup>
+  );
 }
 
 export type AvatarProps = {
