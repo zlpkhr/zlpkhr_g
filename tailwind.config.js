@@ -9,7 +9,38 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontSize: {
+      xs: [
+        "0.75rem",
+        {
+          lineHeight: 1.4,
+        },
+      ],
+      sm: [
+        "0.875rem",
+        {
+          lineHeight: 1.4,
+        },
+      ],
+      m: [
+        "1rem",
+        {
+          lineHeight: 1.4,
+        },
+      ],
+      title: [
+        "2.5rem",
+        {
+          lineHeight: 1.15,
+        },
+      ],
+    },
     extend: {
+      spacing: {
+        0.75: "0.1875rem",
+        18: "4.5rem",
+        145: "36.25rem",
+      },
       colors: {
         neutral: {
           50: "#fafaf9",
