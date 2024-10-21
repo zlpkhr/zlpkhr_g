@@ -36,8 +36,8 @@ export default function Page() {
         </p>
       </div>
       <div className="mt-10 flex gap-x-4">
-        <button className="text-neutral-50 bg-[#241F1C] py-2.5 px-4 rounded-lg font-medium text-balance leading-[1.4]">Download CV</button>
-        <button className="text-neutral-900 py-2.5 px-4 rounded-lg font-medium text-balance leading-[1.4]">Copy e-mail</button>
+        <button className="text-neutral-50 bg-[#241F1C] py-2.5 px-4 rounded-lg font-medium text-base leading-[1.4]">Download CV</button>
+        <button className="text-neutral-900 py-2.5 px-4 rounded-lg font-medium text-base leading-[1.4]">Copy e-mail</button>
       </div>
     </div>
   );
